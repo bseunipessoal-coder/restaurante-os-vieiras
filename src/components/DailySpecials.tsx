@@ -52,7 +52,7 @@ export const DailySpecials: React.FC<DailySpecialsProps> = ({ onOpenReservation 
           </div>
 
           <h2 className="font-serif-title text-3xl sm:text-5xl font-bold text-white mb-4">
-            Pratos do Dia no <span className="bordeaux-gradient-text">Os Vieiras</span>
+            Pratos do Dia no <span className="bordeaux-gradient-text">Vieiras</span>
           </h2>
 
           <p className="text-neutral-300 text-base">

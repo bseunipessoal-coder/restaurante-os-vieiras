@@ -14,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ info, onOpenReservation }) => {
       <div className="absolute inset-0 z-0">
         <img
           src="/hero.png"
-          alt="Restaurante Os Vieiras Loures"
+          alt="Restaurante Vieiras Loures"
           className="w-full h-full object-cover object-center transform scale-105 filter brightness-50"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/50" />
@@ -38,7 +38,7 @@ export const Hero: React.FC<HeroProps> = ({ info, onOpenReservation }) => {
 
         {/* Tagline */}
         <p className="max-w-2xl mx-auto text-lg sm:text-xl text-neutral-300 font-normal leading-relaxed mb-10 drop-shadow">
-          Seja bem-vindo ao restaurante <strong className="text-white font-bold">Os Vieiras</strong>. 
+          Seja bem-vindo ao restaurante <strong className="text-white font-bold">Vieiras</strong>. 
           Pratos com o tempero e a alma da gastronomia portuguesa confeccionados diariamente com o melhor carinho.
         </p>
 

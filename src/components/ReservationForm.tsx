@@ -75,7 +75,7 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({ onClose, initi
         </div>
 
         <h2 className="font-serif-title text-3xl sm:text-4xl font-bold text-white mb-3">
-          Garanta a sua mesa no <span className="bordeaux-gradient-text">Os Vieiras</span>
+          Garanta a sua mesa no <span className="bordeaux-gradient-text">Vieiras</span>
         </h2>
 
         <p className="text-neutral-300 text-sm max-w-xl mx-auto">
@@ -121,7 +121,7 @@ export const ReservationForm: React.FC<ReservationFormProps> = ({ onClose, initi
           </div>
 
           <p className="text-xs text-neutral-400 max-w-md mx-auto">
-            A equipa do restaurante <strong>Os Vieiras</strong> irá rever a disponibilidade do timeslot escolhido e entrará em contacto muito brevemente.
+            A equipa do restaurante <strong>Vieiras</strong> irá rever a disponibilidade do timeslot escolhido e entrará em contacto muito brevemente.
           </p>
 
           <button

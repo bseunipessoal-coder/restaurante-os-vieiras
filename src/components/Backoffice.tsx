@@ -112,7 +112,7 @@ export const Backoffice: React.FC<BackofficeProps> = ({ isOpen, onClose }) => {
             </div>
             <div>
               <h3 className="font-serif-title text-xl font-bold text-white">
-                Backoffice de Gestão • Os Vieiras
+                Backoffice de Gestão • Vieiras
               </h3>
               <p className="text-xs text-neutral-400">Painel Administrativo para Reservas e Pratos do Dia</p>
             </div>

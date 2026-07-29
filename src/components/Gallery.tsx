@@ -40,7 +40,7 @@ export const Gallery: React.FC = () => {
           </div>
 
           <h2 className="font-serif-title text-3xl sm:text-5xl font-bold text-white mb-4">
-            Galeria de Fotos <span className="bordeaux-gradient-text">Os Vieiras</span>
+            Galeria de Fotos <span className="bordeaux-gradient-text">Vieiras</span>
           </h2>
 
           <p className="text-neutral-300 text-base">

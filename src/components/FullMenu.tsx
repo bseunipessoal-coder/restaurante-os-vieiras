@@ -23,16 +23,16 @@ const MENU_ITEMS: MenuItem[] = [
 
   // Carne
   { category: 'carne', title: 'Bochechas de Porco Preto com Puré de Batata Doce', desc: 'Cozinhadas lentamente em lume brando durante 6 horas.', price: '14.50 €', highlight: true },
-  { category: 'carne', title: 'Bife à "Os Vieiras"', desc: 'Lombo de novilho grelhado com molho artesanal de natas, alho e presunto serrano, servido com batata frita caseira.', price: '17.00 €' },
+  { category: 'carne', title: 'Bife à "Vieiras"', desc: 'Lombo de novilho grelhado com molho artesanal de natas, alho e presunto serrano, servido com batata frita caseira.', price: '17.00 €' },
   { category: 'carne', title: 'Secretos de Porco Ibérico na Brasa', desc: 'Com flor de sal, arroz de feijão preto e salada verde fresca.', price: '14.00 €' },
 
   // Sobremesas
-  { category: 'sobremesas', title: 'Doce da Casa "Os Vieiras"', desc: 'Camadas de creme aveludado, bolacha e raspa de chocolate negro.', price: '4.00 €', highlight: true },
+  { category: 'sobremesas', title: 'Doce da Casa "Vieiras"', desc: 'Camadas de creme aveludado, bolacha e raspa de chocolate negro.', price: '4.00 €', highlight: true },
   { category: 'sobremesas', title: 'Toucinho do Céu Tradicional', desc: 'Doce tradicional feito com gemas de ovo e amêndoa fatiada.', price: '4.50 €' },
   { category: 'sobremesas', title: 'Fruta da Época Selecionada', desc: 'Melão de Santa Bárbara, Ananás dos Açores ou Laranja doce.', price: '3.00 €' },
 
   // Vinhos
-  { category: 'vinhos', title: 'Vinho da Casa "Os Vieiras" (Branco / Tinto)', desc: 'Produzido na região demarcada de Lisboa / Loures, aromático e estruturado (Garrafa 75cl).', price: '9.50 €', highlight: true },
+  { category: 'vinhos', title: 'Vinho da Casa "Vieiras" (Branco / Tinto)', desc: 'Produzido na região demarcada de Lisboa / Loures, aromático e estruturado (Garrafa 75cl).', price: '9.50 €', highlight: true },
   { category: 'vinhos', title: 'Quinta das Carvalhas Tinto (Douro)', desc: 'Notas de frutos vermelhos e madeira elegante.', price: '18.00 €' },
   { category: 'vinhos', title: 'Verde Quinta da Aveleda', desc: 'Fresco, frutado e ligeiramente efervescente.', price: '12.00 €' },
 ];

@@ -16,8 +16,8 @@ export const Footer: React.FC<FooterProps> = ({ info, onOpenAdmin }) => {
           {/* BRAND */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="Os Vieiras Logo" className="w-10 h-10 object-contain rounded-full border border-amber-500/60 shadow-md" />
-              <span className="font-serif-title text-2xl font-bold text-white">Os Vieiras</span>
+              <img src="/logo.png" alt="Vieiras Logo" className="w-10 h-10 object-contain rounded-full border border-amber-500/60 shadow-md" />
+              <span className="font-serif-title text-2xl font-bold text-white">Vieiras</span>
             </div>
             <p className="text-xs text-neutral-400 leading-relaxed">
               Restaurante tradicional português em Loures. Sabores autênticos de família confecionados diariamente com dedicação.
@@ -82,7 +82,7 @@ export const Footer: React.FC<FooterProps> = ({ info, onOpenAdmin }) => {
 
         {/* COPYRIGHT */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500 gap-4">
-          <p>© {new Date().getFullYear()} Restaurante "Os Vieiras" — Todos os direitos reservados. Loures, Portugal.</p>
+          <p>© {new Date().getFullYear()} Restaurante "Vieiras" — Todos os direitos reservados. Loures, Portugal.</p>
           <p className="flex items-center gap-1">
             <span>Desenvolvido com</span>
             <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />

@@ -22,7 +22,7 @@ export const AboutUs: React.FC = () => {
               
               <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-black/90 border border-neutral-800 backdrop-blur-md">
                 <p className="text-sm font-medium text-neutral-200 italic">
-                  "Na mesa do restaurante Os Vieiras, cada refeição é servida como uma celebração em família."
+                  "Na mesa do restaurante Vieiras, cada refeição é servida como uma celebração em família."
                 </p>
                 <span className="block text-xs font-bold text-rose-400 mt-2 uppercase tracking-wider">
                   — Família Vieira • Loures
@@ -52,7 +52,7 @@ export const AboutUs: React.FC = () => {
             </h2>
 
             <p className="text-neutral-300 text-base leading-relaxed">
-              O restaurante <strong className="text-rose-400">"Os Vieiras"</strong> nasceu da dedicação de uma família com raízes profundas na cozinha tradicional portuguesa. Localizados no coração de <strong className="text-white">Loures</strong>, trazemos para a mesa os pratos mais emblemáticos da nossa gastronomia.
+              O restaurante <strong className="text-rose-400">"Vieiras"</strong> nasceu da dedicação de uma família com raízes profundas na cozinha tradicional portuguesa. Localizados no coração de <strong className="text-white">Loures</strong>, trazemos para a mesa os pratos mais emblemáticos da nossa gastronomia.
             </p>
 
             <p className="text-neutral-400 text-sm leading-relaxed">

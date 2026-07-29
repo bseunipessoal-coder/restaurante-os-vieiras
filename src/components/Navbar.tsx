@@ -44,7 +44,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAdmin, onOpenReservation }
             <div className="relative w-12 h-12 rounded-full border-2 border-amber-500/60 p-1 flex items-center justify-center bg-black group-hover:border-amber-400 transition-all shadow-lg shadow-amber-500/10">
               <img
                 src="/logo.png"
-                alt="Os Vieiras Logo"
+                alt="Vieiras Logo"
                 className="w-full h-full object-contain rounded-full"
                 onError={(e) => {
                   (e.target as HTMLElement).style.display = 'none';
@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAdmin, onOpenReservation }
             </div>
             <div className="flex flex-col">
               <span className="font-serif-title text-2xl font-extrabold text-white tracking-wide group-hover:text-rose-300 transition-colors">
-                Os Vieiras
+                Vieiras
               </span>
               <span className="text-[10px] uppercase tracking-widest text-rose-300 font-bold">
                 Restaurante • Loures

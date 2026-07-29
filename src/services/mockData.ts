@@ -1,7 +1,7 @@
 import type { DailySpecial, GalleryAlbum, GalleryPhoto, Reservation, RestaurantInfo } from '../types';
 
 export const INITIAL_RESTAURANT_INFO: RestaurantInfo = {
-  name: 'Os Vieiras',
+  name: 'Vieiras',
   tagline: 'Gastronomia Tradicional Portuguesa & Sabores de Família',
   address: 'Rua Principal de Loures, Nº 45',
   city: 'Loures',
@@ -224,7 +224,7 @@ export const INITIAL_DAILY_SPECIALS: DailySpecial[] = [
     id: 'ds-6-2',
     day_of_week: 6,
     category: 'peixe',
-    title: 'Arroz de Marisco Especial "Os Vieiras"',
+    title: 'Arroz de Marisco Especial "Vieiras"',
     description: 'Servido em tacho de barro, rico em sapateira, lagosta, camarão e coentros.',
     price: 18.50,
     is_active: true

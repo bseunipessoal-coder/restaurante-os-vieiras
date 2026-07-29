@@ -149,7 +149,7 @@ export const LocationContact: React.FC<LocationContactProps> = ({ info }) => {
               <div className="absolute inset-0 bg-black flex flex-col items-center justify-center p-6 text-center">
                 <MapPin className="w-12 h-12 text-[#800020] mb-3 animate-bounce" />
                 <h4 className="font-serif-title text-xl font-bold text-white">
-                  Restaurante Os Vieiras em Loures
+                  Restaurante Vieiras em Loures
                 </h4>
                 <p className="text-xs text-neutral-400 max-w-sm mt-1 mb-4">
                   Rua Principal de Loures, Nº 45 • 2670-401 Loures
