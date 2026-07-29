@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-bordeaux-900: #4a0e17;
+  --color-bordeaux-800: #6b1422;
+  --color-bordeaux-700: #800020;
+  --color-bordeaux-600: #9c1834;
+  --color-bordeaux-500: #b81d3e;
+  --color-bordeaux-400: #d42c50;
+
+  --color-black-950: #050505;
+  --color-black-900: #0d0d0d;
+  --color-black-800: #171717;
+  --color-black-700: #262626;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050505;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.font-serif-title {
+  font-family: var(--font-serif);
+}
+
+/* Glassmorphism effects in Bordeaux & Black */
+.glass-panel {
+  background: rgba(13, 13, 13, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(128, 0, 32, 0.3);
+}
+
+.glass-panel-bordeaux {
+  background: linear-gradient(135deg, rgba(128, 0, 32, 0.25) 0%, rgba(5, 5, 5, 0.9) 100%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(156, 24, 52, 0.4);
+}
+
+.bordeaux-gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #e0526e 50%, #800020 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bordeaux-border-glow {
+  box-shadow: 0 0 25px -5px rgba(128, 0, 32, 0.5);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #800020;
+}

@@ -1,0 +1,6 @@
+name = "restaurante-os-vieiras"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-07-29"
+
+[vars]
+ENVIRONMENT = "production"
